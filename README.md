@@ -8,7 +8,7 @@ Install the required Python packages by running pip install -r requirements.txt
 
 I have created a dashboard to visualize Phonepe pulse Github repository data(https://github.com/PhonePe/pulse) using Streamlit and Plotly in Python
 
-Link for web app is : 
+Link for web app is : https://phonepe-pulse-rajeev-ljnqpngrz5tscscqsa2dj2.streamlit.app/
 
 THE MAIN COMPONENTS OF DASHBOARD ARE
 
