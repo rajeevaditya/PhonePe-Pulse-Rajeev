@@ -36,6 +36,26 @@ hide_default_format = """
        """
 st.markdown(hide_default_format, unsafe_allow_html=True) 
 
+##############################################################################################################################
+#--------------------------------PYTHON TO MYSQL DATABASE CONNECT AND UPLOAD DATAFRAME ---------------------------------
+
+#engine =create_engine("mysql+pymysql://<uername>:<password>@127.0.0.1/phonepe_pulse_data")
+#conn=engine.connect()
+
+#---------------------------------MYSQL TO PYTHON CONNECT AND READ THE QUERY--------------------------------------------
+#Data_Aggregated_Transaction_df = pd.read_sql_table('Data_Aggregated_Transaction_Table', conn) #1
+#Data_Aggregated_User_Summary_df= pd.read_sql_table('Data_Aggregated_User_Summary_Table', conn) #2
+
+#Data_Aggregated_User_df = pd.read_sql_table('Data_Aggregated_User_Table', conn) #3
+#Scatter_Geo_Dataset = pd.read_sql_table('Data_Map_Districts_Longitude_Latitude', conn) #4
+#Coropleth_Dataset = pd.read_sql_table('Data_Map_IndiaStates_TU', conn) #5
+
+#Data_Map_Transaction_df= pd.read_sql_table('Data_Map_Transaction_Table', conn) #6
+#Data_Map_User_Table= pd.read_sql_table('Data_Map_User_Table', conn) #7
+#Indian_States = pd.read_sql_table('Longitude_Latitude_State_Table', conn)#8
+
+##############################################################################################################################
+
 
 # DATASETS
 Data_Aggregated_Transaction_df= pd.read_csv(r'data/Data_Aggregated_Transaction_Table.csv')
