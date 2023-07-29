@@ -12,13 +12,27 @@ Link for web app is : https://phonepe-pulse-rajeev-ljnqpngrz5tscscqsa2dj2.stream
 
 THE MAIN COMPONENTS OF DASHBOARD ARE
 
-1 GEO-VISUALIZATION
+HOME PAGE
+![image](https://github.com/rajeevaditya/PhonePe-Pulse-Rajeev/assets/126942001/36478985-19bc-4982-b132-a3aa43d00479)
+
+
+1 GEO-VISUALIZATION & TOP STATES DATA
+
+![image](https://github.com/rajeevaditya/PhonePe-Pulse-Rajeev/assets/126942001/a711feef-7f82-4239-93e5-9dfc34dc2741)
+
+![image](https://github.com/rajeevaditya/PhonePe-Pulse-Rajeev/assets/126942001/e3307d64-42d7-4491-ba7f-60af2d546b27)
+
 
 2 TRANSACTIONS ANALYSIS
 
+![image](https://github.com/rajeevaditya/PhonePe-Pulse-Rajeev/assets/126942001/5afd339c-da6a-4ed8-94ab-a97e435f0690)
+
+
 3 USERS ANALYSIS
 
-4 TOP STATES DATA
+![image](https://github.com/rajeevaditya/PhonePe-Pulse-Rajeev/assets/126942001/df42b59a-3d5a-4c46-bf5b-32f8bb2d15ef)
+
+
 1 Geo-Visualization: The India map shows the Total Transactions of PhonePe in both state wide and District wide.It comes with zoom option and on hover displays the content related to that particular state or district.The main functions I have used to create this map are (User can give year and quarter input to show how the data changed over time)
 
 1 Plotlys scatter_geo for plotting districts along with the conent    
